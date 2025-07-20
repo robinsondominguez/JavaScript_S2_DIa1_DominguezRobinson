@@ -1,0 +1,47 @@
+body{
+    justify-items: center;
+    background-color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.conteiner{
+    text-align: center;
+    border: 5px aquamarine solid;
+    border-radius: 4rem;
+    height: 60vh;
+    width: 20vw;
+    background-color: white;
+    overflow: hidden;
+}
+
+.registrar_gasto{
+    position: relative;
+    padding: 1%;
+    background-color: aqua;
+    text-align: center;
+}
+
+.botones{
+    padding-top: 10%;
+    gap: 15%;
+    justify-content: center;
+    display: flex;
+}
+
+.Cancelar{
+    border-radius: 1rem;
+    color: white;
+    border: 2px solid black;
+    padding: 3%;
+    text-decoration: none;
+    background-color: red ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Registrar{
+    border-radius: 1rem;
+    padding: 3%;
+    text-decoration: none;
+    background-color: greenyellow ;
+    font-family: Arial, Helvetica, sans-serif;
+}

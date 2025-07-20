@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrar_gastos</title>
+    <link rel="stylesheet" href="../style/Registrar_gastos.css">
+</head>
+
+<body>
+    <div class="conteiner">
+        <div class="registrar_gasto">
+            <p>Registrador Nuevo Gasto</p>
+        </div>
+        <p>Ingrese la informacion del nuevo gasto...</p>
+        <br>
+        <div class="informacion">
+            <Div class="Monto">
+                <p>Monto del gasto</p>
+                <input type="number" name="Monto" id="">
+            </Div>
+            <div class="categoria">
+                <p>Categoria</p>
+                <select name="categoria" id="">
+                    <option value="Nothing"></option>
+                    <option value="Comida">Comida</option>
+                    <option value="Transporte">Transporte</option>
+                    <option value="Entretenimiento">Entretenimiento</option>
+                    <option value="Otros">Otros</option>
+                </select>
+            </div>
+            <div class="descripcion">
+                <p>descripcion</p>
+                <input type="text">
+            </div>
+        </div>
+        <br>
+        <div class="botones">
+            <a class="Cancelar" href="../index.html">Cancelar</a>
+            <input class="Registrar" type="button" value="Registrar">
+        </div>
+    </div>
+    </div>
+    </div>
+</body>
+<script src="../scripts/scripts.js"></script>
+
+</html>
