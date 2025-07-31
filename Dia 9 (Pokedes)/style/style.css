@@ -16,6 +16,47 @@ main{
     position: relative;
 }
 
-.pokedex_img{
+.img_pokemon{
     position: absolute;
+    bottom: 44%;
+    left: 50%;
+    transform: translate(-63%,20%);
+    height: 18%;   
+}
+
+.Data{
+    position: absolute;
+    color: rgb(173, 8, 8);
+    top: 55%;
+    font-size: clamp(15px,7vw,20px);
+}
+
+.name_pokemon{
+    color: blueviolet;
+}
+
+.input_search{
+    position: absolute;
+    width: 65%;
+    top: 68%;
+    left: 13.5%;
+}
+
+.botones{
+    position: absolute;
+    bottom: 10%;
+    left: 15%;
+    display: flex;
+    gap: 7rem;
+}
+
+button{
+    width: 50%;
+    padding: 4%;
+    border: 2px solid #000;
+    border-radius: 5px;
+    font-size: clamp(8px,5vw,1rem);
+    color: white;
+    background-color: #444;
+    box-shadow: -2px 3px 0 #222,-4px 6px #000;
 }
