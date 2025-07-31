@@ -15,3 +15,9 @@ let fetchPokemon = async (pokemon) => {
         return data;
     }
 }
+
+const renderPokemon = async (pokemon) => {
+    namePokemon.
+    idPokemon
+    imagePokemon
+}
