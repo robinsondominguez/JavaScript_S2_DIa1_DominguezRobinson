@@ -1,0 +1,21 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Oxanium', cursive;
+}
+
+body{
+    text-align: center;
+    background-color: green;
+}
+
+main{
+    display: inline-block;
+    padding: 1rem;
+    position: relative;
+}
+
+.pokedex_img{
+    position: absolute;
+}

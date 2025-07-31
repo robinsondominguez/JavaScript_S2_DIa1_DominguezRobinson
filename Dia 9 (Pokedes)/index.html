@@ -5,12 +5,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>pokedes</title>
+    <link rel="stylesheet" href="./style/style.css">
 </head>
 
 <body>
     <main>
-        <img src="./img/pokedex.png" alt="pokedes">
+        <img src="./img/pokedex.png" alt="pokemons">
+        <p class="Data">
+            <span class="name_pokemon"></span>
+            <span class="number_pokemon"></span>
+        </p>
+
+        <form class="Searchs">
+            <input type="search" class="input_search" placeholder="Ingrese nombre o id del pokemon:">
+        </form>
+
+        <div class="botones">
+            <button type="button" class="prev_button">prev</button>
+            <button type="button" class="next_button">next</button>
+        </div>
+        <img src="./img/pokedex.png" alt="pokedex" class="pokedex_img">
     </main>
 </body>
-
+<script src="./scripts/script.js"></script>
 </html>
