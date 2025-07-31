@@ -68,3 +68,8 @@ button{
     background-color: #444;
     box-shadow: -2px 3px 0 #222,-4px 6px #000;
 }
+
+button:active{
+    box-shadow: -2px 2px ;
+    background-color: #222;
+}

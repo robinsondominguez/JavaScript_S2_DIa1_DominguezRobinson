@@ -10,19 +10,19 @@
 
 <body>
     <main>
-        <img src="#" alt="pokemon" class="Pokemon_image">
+        <img src="#" alt="pokemon" id="imagePokemon" class="Pokemon_image">
         <p class="Data">
-            <span class="Pokemon_Name"></span>
-            <span class="Pokemon_id"></span>
+            <span id="pokemonName" class="Pokemon_Name"></span>
+            <span id="pokemonID" class="Pokemon_id"></span>
         </p>
 
         <form class="Searchs">
-            <input type="search" class="input_search" placeholder="Ingrese nombre o id del pokemon:">
+            <input type="search" id="search" class="input_search" placeholder="Ingrese nombre o id del pokemon:">
         </form>
 
         <div class="next_prev">
-            <button type="button" class="Prev">prev</button>
-            <button type="button" class="Next">next</button>
+            <button type="button" id="prev" class="Prev">prev</button>
+            <button type="button" id="next" class="Next">next</button>
         </div>
         <img src="./img/pokedex.png" alt="pokedex" class="pokedex_image">
     </main>
