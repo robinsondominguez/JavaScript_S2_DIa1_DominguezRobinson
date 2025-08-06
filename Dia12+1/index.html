@@ -1,19 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Heroes</title>
   <link rel="stylesheet" href="./style/style.css">
 </head>
+
 <body>
-  <main>
-    <div class="formulario">
-      <p>Buscador personajes Heroes Dc</p>
-      <input type="button" value="input" id="inputSearch" placeholder="NameHeroes">
-    </div>
-    <div class="card"></div>
-  </main>
+  <h1>Buscador de Heroes</h1>
+
+  <input type="text" id="nombreInput" placeholder="Nombre">
+  <button onclick="buscarPersonaje()">buscar</button>
+
+  <div id="resultados"></div>
 </body>
 <script src="./script/script.js"></script>
+
 </html>
